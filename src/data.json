@@ -1,0 +1,367 @@
+[
+  {
+    "id": 1,
+    "image": "product1.jpg",
+    "name": "Product 1",
+    "description": "This is the first product description.",
+    "price": 100,
+    "discountedPrice": 80,
+    "rating": 4.5,
+    "color": "green"
+  },
+  {
+    "id": 2,
+    "image": "product2.jpg",
+    "name": "Product 2",
+    "description": "This is the second product description.",
+    "price": 75,
+    "rating": 3.8,
+    "color": "blue"
+  },
+  {
+    "id": 3,
+    "image": "product3.jpg",
+    "name": "Product 3",
+    "description": "This is the third product description.",
+    "price": 120,
+    "rating": 4.2,
+    "color": "purple"
+  },
+  {
+    "id": 4,
+    "image": "product4.jpg",
+    "name": "Product 4",
+    "description": "This is the fourth product description.",
+    "price": 50,
+    "rating": 4.0,
+    "color": "yellow"
+  },
+  {
+    "id": 5,
+    "image": "product5.jpg",
+    "name": "Product 5",
+    "description": "This is the fifth product description.",
+    "price": 90,
+    "rating": 4.7,
+    "color": "orange"
+  },
+  {
+    "id": 6,
+    "image": "product6.jpg",
+    "name": "Product 6",
+    "description": "This is the sixth product description.",
+    "price": 65,
+    "rating": 3.5,
+    "color": "green"
+  },
+  {
+    "id": 7,
+    "image": "product7.jpg",
+    "name": "Product 7",
+    "description": "This is the seventh product description.",
+    "price": 150,
+    "rating": 4.8,
+    "color": "blue"
+  },
+  {
+    "id": 8,
+    "image": "product8.jpg",
+    "name": "Product 8",
+    "description": "This is the eighth product description.",
+    "price": 80,
+    "rating": 4.1,
+    "color": "red"
+  },
+  {
+    "id": 9,
+    "image": "product9.jpg",
+    "name": "Product 9",
+    "description": "This is the ninth product description.",
+    "price": 110,
+    "rating": 4.6,
+    "color": "blue"
+  },
+  {
+    "id": 10,
+    "image": "product10.jpg",
+    "name": "Product 10",
+    "description": "This is the tenth product description.",
+    "price": 70,
+    "rating": 3.9,
+    "color": "green"
+  },
+  {
+    "id": 11,
+    "image": "product1.jpg",
+    "name": "Product 1",
+    "description": "This is the first product description.",
+    "price": 100,
+    "discountedPrice": 80,
+    "rating": 4.5,
+    "color": "pink"
+  },
+  {
+    "id": 12,
+    "image": "product2.jpg",
+    "name": "Product 2",
+    "description": "This is the second product description.",
+    "price": 75,
+    "rating": 3.8,
+    "color": "purple"
+  },
+  {
+    "id": 13,
+    "image": "product3.jpg",
+    "name": "Product 3",
+    "description": "This is the third product description.",
+    "price": 120,
+    "rating": 4.2,
+    "color": "orange"
+  },
+  {
+    "id": 14,
+    "image": "product4.jpg",
+    "name": "Product 4",
+    "description": "This is the fourth product description.",
+    "price": 50,
+    "rating": 4.0,
+    "color": "green"
+  },
+  {
+    "id": 15,
+    "image": "product5.jpg",
+    "name": "Product 5",
+    "description": "This is the fifth product description.",
+    "price": 90,
+    "rating": 4.7,
+    "color": "pink"
+  },
+  {
+    "id": 16,
+    "image": "product6.jpg",
+    "name": "Product 6",
+    "description": "This is the sixth product description.",
+    "price": 65,
+    "rating": 3.5,
+    "color": "purple"
+  },
+  {
+    "id": 17,
+    "image": "product7.jpg",
+    "name": "Product 17",
+    "description": "This is the seventh product description.",
+    "price": 150,
+    "rating": 4.8,
+    "color": "blue"
+  },
+  {
+    "id": 18,
+    "image": "product8.jpg",
+    "name": "Product 18",
+    "description": "This is the eighth product description.",
+    "price": 80,
+    "rating": 4.1,
+    "color": "blue"
+  },
+  {
+    "id": 19,
+    "image": "product9.jpg",
+    "name": "Product 19",
+    "description": "This is the ninth product description.",
+    "price": 110,
+    "rating": 4.6,
+    "color": "blue"
+  },
+  {
+    "id": 20,
+    "image": "product10.jpg",
+    "name": "Product 20",
+    "description": "This is the tenth product description.",
+    "price": 70,
+    "rating": 3.9,
+    "color": "blue"
+  },
+
+  {
+    "id": 21,
+    "image": "product1.jpg",
+    "name": "Product 21",
+    "description": "This is the twenty-first product description.",
+    "price": 100,
+    "discountedPrice": 80,
+    "rating": 4.5,
+    "color": "green"
+  },
+  {
+    "id": 22,
+    "image": "product2.jpg",
+    "name": "Product 22",
+    "description": "This is the twenty-second product description.",
+    "price": 75,
+    "rating": 3.8,
+    "color": "blue"
+  },
+  {
+    "id": 23,
+    "image": "product3.jpg",
+    "name": "Product 23",
+    "description": "This is the twenty-third product description.",
+    "price": 120,
+    "rating": 4.2,
+    "color": "purple"
+  },
+  {
+    "id": 24,
+    "image": "product4.jpg",
+    "name": "Product 24",
+    "description": "This is the twenty-fourth product description.",
+    "price": 50,
+    "rating": 4.0,
+    "color": "yellow"
+  },
+  {
+    "id": 25,
+    "image": "product5.jpg",
+    "name": "Product 25",
+    "description": "This is the twenty-fifth product description.",
+    "price": 90,
+    "rating": 4.7,
+    "color": "orange"
+  },
+  {
+    "id": 26,
+    "image": "product6.jpg",
+    "name": "Product 26",
+    "description": "This is the twenty-sixth product description.",
+    "price": 65,
+    "rating": 3.5,
+    "color": "green"
+  },
+  {
+    "id": 27,
+    "image": "product7.jpg",
+    "name": "Product 27",
+    "description": "This is the twenty-seventh product description.",
+    "price": 150,
+    "rating": 4.8,
+    "color": "blue"
+  },
+  {
+    "id": 28,
+    "image": "product8.jpg",
+    "name": "Product 28",
+    "description": "This is the twenty-eighth product description.",
+    "price": 80,
+    "rating": 4.1,
+    "color": "red"
+  },
+  {
+    "id": 29,
+    "image": "product9.jpg",
+    "name": "Product 29",
+    "description": "This is the twenty-ninth product description.",
+    "price": 110,
+    "rating": 4.6,
+    "color": "blue"
+  },
+  {
+    "id": 30,
+    "image": "product10.jpg",
+    "name": "Product 30",
+    "description": "This is the thirtieth product description.",
+    "price": 70,
+    "rating": 3.9,
+    "color": "green"
+  },
+  {
+    "id": 31,
+    "image": "product1.jpg",
+    "name": "Product 31",
+    "description": "This is the thirty-first product description.",
+    "price": 100,
+    "discountedPrice": 80,
+    "rating": 4.5,
+    "color": "pink"
+  },
+  {
+    "id": 32,
+    "image": "product2.jpg",
+    "name": "Product 32",
+    "description": "This is the thirty-second product description.",
+    "price": 75,
+    "rating": 3.8,
+    "color": "purple"
+  },
+  {
+    "id": 33,
+    "image": "product3.jpg",
+    "name": "Product 33",
+    "description": "This is the thirty-third product description.",
+    "price": 120,
+    "rating": 4.2,
+    "color": "orange"
+  },
+  {
+    "id": 34,
+    "image": "product4.jpg",
+    "name": "Product 34",
+    "description": "This is the thirty-fourth product description.",
+    "price": 50,
+    "rating": 4.0,
+    "color": "green"
+  },
+  {
+    "id": 35,
+    "image": "product5.jpg",
+    "name": "Product 35",
+    "description": "This is the thirty-fifth product description.",
+    "price": 90,
+    "rating": 4.7,
+    "color": "pink"
+  },
+  {
+    "id": 36,
+    "image": "product6.jpg",
+    "name": "Product 36",
+    "description": "This is the thirty-sixth product description.",
+    "price": 65,
+    "rating": 3.5,
+    "color": "purple"
+  },
+  {
+    "id": 37,
+    "image": "product7.jpg",
+    "name": "Product 37",
+    "description": "This is the thirty-seventh product description.",
+    "price": 150,
+    "rating": 4.8,
+    "color": "blue"
+  },
+  {
+    "id": 38,
+    "image": "product8.jpg",
+    "name": "Product 38",
+    "description": "This is the thirty-eighth product description.",
+    "price": 80,
+    "rating": 4.1,
+    "color": "blue"
+  },
+  {
+    "id": 39,
+    "image": "product9.jpg",
+    "name": "Product 39",
+    "description": "This is the thirty-ninth product description.",
+    "price": 110,
+    "rating": 4.6,
+    "color": "blue"
+  },
+  {
+    "id": 40,
+    "image": "product10.jpg",
+    "name": "Product 40",
+    "description": "This is the fortieth product description.",
+    "price": 70,
+    "rating": 3.9,
+    "color": "blue"
+  }
+]
