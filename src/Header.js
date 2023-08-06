@@ -1,17 +1,11 @@
-function Header() {
+function Header(props) {
   return (
     <>
-      <Logo /> <Navigation />
+      <button onClick={props.bags}>Bags</button>
+      <button onClick={props.shoes}>Shoes</button>
+      <button onClick={props.jeans}>Jeans</button>
     </>
   );
-}
-
-function Logo() {
-  return <>Logo</>;
-}
-
-function Navigation() {
-  return <>ButtonBags ButtonShoes</>;
 }
 
 export default Header;

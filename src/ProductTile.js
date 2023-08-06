@@ -16,6 +16,7 @@ function ProjectTile(props) {
       <h2>{items.price}</h2>
       <h2>{items.rating}</h2>
       <h2>{items.color}</h2>
+      <h2>{items.category}</h2>
     </div>
   );
 }

@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import ProductTile from "./ProductTile";
 import data from "./data.json";
 import Filter from "./Filter";
+import Header from "./Header";
 
-function Grid() {
+function Grid(props) {
   const [productTileMap, setProductTileMap] = useState([]);
   const [forIndex, setForIndex] = useState(10);
   const [counter, setCounter] = useState(forIndex);
@@ -12,6 +13,7 @@ function Grid() {
     maxPrice: 0,
     color: "",
   });
+  const [selectedCategory, setSelectedCategory] = useState(""); // New state to track the selected category
 
   useEffect(() => {
     const initialTiles = [];
@@ -64,7 +66,15 @@ function Grid() {
     // Set the selected filters to the state
     setFilters(selectedFilters);
     // Apply filters to create a new grid
-    const filteredTiles = data.filter((item) => {
+    let filteredTiles = data;
+
+    if (selectedCategory) {
+      filteredTiles = filteredTiles.filter(
+        (item) => item.category === selectedCategory
+      );
+    }
+
+    filteredTiles = filteredTiles.filter((item) => {
       const meetsMinPrice = item.price >= selectedFilters.minPrice;
       const meetsMaxPrice = item.price <= selectedFilters.maxPrice;
       const meetsColor =
@@ -79,8 +89,22 @@ function Grid() {
     setProductTileMap(updatedTiles);
   };
 
+  const showOnlyCategory = (category) => {
+    setSelectedCategory(category); // Update the selected category state
+    const categoryTiles = data.filter((item) => item.category === category);
+    const updatedTiles = categoryTiles.map((item, index) => (
+      <ProductTile key={index} index={item.id - 1} />
+    ));
+    setProductTileMap(updatedTiles);
+  };
+
   return (
     <div className="grid-container">
+      <Header
+        bags={() => showOnlyCategory("bags")}
+        shoes={() => showOnlyCategory("shoes")}
+        jeans={() => showOnlyCategory("jeans")}
+      />
       <Filter onApplyFilter={applyFilters} />
       {productTileMap}
       <button onClick={buttonClick}>asd</button>

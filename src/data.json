@@ -7,7 +7,8 @@
     "price": 100,
     "discountedPrice": 80,
     "rating": 4.5,
-    "color": "green"
+    "color": "green",
+    "category": "bags"
   },
   {
     "id": 2,
@@ -16,7 +17,8 @@
     "description": "This is the second product description.",
     "price": 75,
     "rating": 3.8,
-    "color": "blue"
+    "color": "blue",
+    "category": "shoes"
   },
   {
     "id": 3,
@@ -25,7 +27,8 @@
     "description": "This is the third product description.",
     "price": 120,
     "rating": 4.2,
-    "color": "purple"
+    "color": "purple",
+    "category": "jeans"
   },
   {
     "id": 4,
@@ -34,7 +37,8 @@
     "description": "This is the fourth product description.",
     "price": 50,
     "rating": 4.0,
-    "color": "yellow"
+    "color": "yellow",
+    "category": "shoes"
   },
   {
     "id": 5,
@@ -43,7 +47,8 @@
     "description": "This is the fifth product description.",
     "price": 90,
     "rating": 4.7,
-    "color": "orange"
+    "color": "orange",
+    "category": "bags"
   },
   {
     "id": 6,
@@ -52,7 +57,8 @@
     "description": "This is the sixth product description.",
     "price": 65,
     "rating": 3.5,
-    "color": "green"
+    "color": "green",
+    "category": "jeans"
   },
   {
     "id": 7,
@@ -61,7 +67,8 @@
     "description": "This is the seventh product description.",
     "price": 150,
     "rating": 4.8,
-    "color": "blue"
+    "color": "blue",
+    "category": "bags"
   },
   {
     "id": 8,
@@ -70,7 +77,8 @@
     "description": "This is the eighth product description.",
     "price": 80,
     "rating": 4.1,
-    "color": "red"
+    "color": "red",
+    "category": "shoes"
   },
   {
     "id": 9,
@@ -79,7 +87,8 @@
     "description": "This is the ninth product description.",
     "price": 110,
     "rating": 4.6,
-    "color": "blue"
+    "color": "blue",
+    "category": "jeans"
   },
   {
     "id": 10,
@@ -88,100 +97,110 @@
     "description": "This is the tenth product description.",
     "price": 70,
     "rating": 3.9,
-    "color": "green"
+    "color": "green",
+    "category": "bags"
   },
   {
     "id": 11,
     "image": "product1.jpg",
-    "name": "Product 1",
-    "description": "This is the first product description.",
+    "name": "Product 11",
+    "description": "This is the eleventh product description.",
     "price": 100,
     "discountedPrice": 80,
     "rating": 4.5,
-    "color": "pink"
+    "color": "pink",
+    "category": "shoes"
   },
   {
     "id": 12,
     "image": "product2.jpg",
-    "name": "Product 2",
-    "description": "This is the second product description.",
+    "name": "Product 12",
+    "description": "This is the twelfth product description.",
     "price": 75,
     "rating": 3.8,
-    "color": "purple"
+    "color": "purple",
+    "category": "jeans"
   },
   {
     "id": 13,
     "image": "product3.jpg",
-    "name": "Product 3",
-    "description": "This is the third product description.",
+    "name": "Product 13",
+    "description": "This is the thirteenth product description.",
     "price": 120,
     "rating": 4.2,
-    "color": "orange"
+    "color": "orange",
+    "category": "bags"
   },
   {
     "id": 14,
     "image": "product4.jpg",
-    "name": "Product 4",
-    "description": "This is the fourth product description.",
+    "name": "Product 14",
+    "description": "This is the fourteenth product description.",
     "price": 50,
     "rating": 4.0,
-    "color": "green"
+    "color": "green",
+    "category": "jeans"
   },
   {
     "id": 15,
     "image": "product5.jpg",
-    "name": "Product 5",
-    "description": "This is the fifth product description.",
+    "name": "Product 15",
+    "description": "This is the fifteenth product description.",
     "price": 90,
     "rating": 4.7,
-    "color": "pink"
+    "color": "pink",
+    "category": "bags"
   },
   {
     "id": 16,
     "image": "product6.jpg",
-    "name": "Product 6",
-    "description": "This is the sixth product description.",
+    "name": "Product 16",
+    "description": "This is the sixteenth product description.",
     "price": 65,
     "rating": 3.5,
-    "color": "purple"
+    "color": "purple",
+    "category": "shoes"
   },
   {
     "id": 17,
     "image": "product7.jpg",
     "name": "Product 17",
-    "description": "This is the seventh product description.",
+    "description": "This is the seventeenth product description.",
     "price": 150,
     "rating": 4.8,
-    "color": "blue"
+    "color": "blue",
+    "category": "bags"
   },
   {
     "id": 18,
     "image": "product8.jpg",
     "name": "Product 18",
-    "description": "This is the eighth product description.",
+    "description": "This is the eighteenth product description.",
     "price": 80,
     "rating": 4.1,
-    "color": "blue"
+    "color": "blue",
+    "category": "shoes"
   },
   {
     "id": 19,
     "image": "product9.jpg",
     "name": "Product 19",
-    "description": "This is the ninth product description.",
+    "description": "This is the nineteenth product description.",
     "price": 110,
     "rating": 4.6,
-    "color": "blue"
+    "color": "blue",
+    "category": "jeans"
   },
   {
     "id": 20,
     "image": "product10.jpg",
     "name": "Product 20",
-    "description": "This is the tenth product description.",
+    "description": "This is the twentieth product description.",
     "price": 70,
     "rating": 3.9,
-    "color": "blue"
+    "color": "blue",
+    "category": "bags"
   },
-
   {
     "id": 21,
     "image": "product1.jpg",
@@ -190,7 +209,8 @@
     "price": 100,
     "discountedPrice": 80,
     "rating": 4.5,
-    "color": "green"
+    "color": "green",
+    "category": "shoes"
   },
   {
     "id": 22,
@@ -199,7 +219,8 @@
     "description": "This is the twenty-second product description.",
     "price": 75,
     "rating": 3.8,
-    "color": "blue"
+    "color": "blue",
+    "category": "jeans"
   },
   {
     "id": 23,
@@ -208,7 +229,8 @@
     "description": "This is the twenty-third product description.",
     "price": 120,
     "rating": 4.2,
-    "color": "purple"
+    "color": "purple",
+    "category": "bags"
   },
   {
     "id": 24,
@@ -217,7 +239,8 @@
     "description": "This is the twenty-fourth product description.",
     "price": 50,
     "rating": 4.0,
-    "color": "yellow"
+    "color": "yellow",
+    "category": "jeans"
   },
   {
     "id": 25,
@@ -226,7 +249,8 @@
     "description": "This is the twenty-fifth product description.",
     "price": 90,
     "rating": 4.7,
-    "color": "orange"
+    "color": "orange",
+    "category": "bags"
   },
   {
     "id": 26,
@@ -235,7 +259,8 @@
     "description": "This is the twenty-sixth product description.",
     "price": 65,
     "rating": 3.5,
-    "color": "green"
+    "color": "green",
+    "category": "jeans"
   },
   {
     "id": 27,
@@ -244,7 +269,8 @@
     "description": "This is the twenty-seventh product description.",
     "price": 150,
     "rating": 4.8,
-    "color": "blue"
+    "color": "blue",
+    "category": "shoes"
   },
   {
     "id": 28,
@@ -253,7 +279,8 @@
     "description": "This is the twenty-eighth product description.",
     "price": 80,
     "rating": 4.1,
-    "color": "red"
+    "color": "red",
+    "category": "bags"
   },
   {
     "id": 29,
@@ -262,7 +289,8 @@
     "description": "This is the twenty-ninth product description.",
     "price": 110,
     "rating": 4.6,
-    "color": "blue"
+    "color": "blue",
+    "category": "jeans"
   },
   {
     "id": 30,
@@ -271,7 +299,8 @@
     "description": "This is the thirtieth product description.",
     "price": 70,
     "rating": 3.9,
-    "color": "green"
+    "color": "green",
+    "category": "bags"
   },
   {
     "id": 31,
@@ -281,7 +310,8 @@
     "price": 100,
     "discountedPrice": 80,
     "rating": 4.5,
-    "color": "pink"
+    "color": "pink",
+    "category": "shoes"
   },
   {
     "id": 32,
@@ -290,7 +320,8 @@
     "description": "This is the thirty-second product description.",
     "price": 75,
     "rating": 3.8,
-    "color": "purple"
+    "color": "purple",
+    "category": "jeans"
   },
   {
     "id": 33,
@@ -299,7 +330,8 @@
     "description": "This is the thirty-third product description.",
     "price": 120,
     "rating": 4.2,
-    "color": "orange"
+    "color": "orange",
+    "category": "bags"
   },
   {
     "id": 34,
@@ -308,7 +340,8 @@
     "description": "This is the thirty-fourth product description.",
     "price": 50,
     "rating": 4.0,
-    "color": "green"
+    "color": "green",
+    "category": "jeans"
   },
   {
     "id": 35,
@@ -317,7 +350,8 @@
     "description": "This is the thirty-fifth product description.",
     "price": 90,
     "rating": 4.7,
-    "color": "pink"
+    "color": "pink",
+    "category": "bags"
   },
   {
     "id": 36,
@@ -326,7 +360,8 @@
     "description": "This is the thirty-sixth product description.",
     "price": 65,
     "rating": 3.5,
-    "color": "purple"
+    "color": "purple",
+    "category": "shoes"
   },
   {
     "id": 37,
@@ -335,7 +370,8 @@
     "description": "This is the thirty-seventh product description.",
     "price": 150,
     "rating": 4.8,
-    "color": "blue"
+    "color": "blue",
+    "category": "bags"
   },
   {
     "id": 38,
@@ -344,7 +380,8 @@
     "description": "This is the thirty-eighth product description.",
     "price": 80,
     "rating": 4.1,
-    "color": "blue"
+    "color": "blue",
+    "category": "jeans"
   },
   {
     "id": 39,
@@ -353,7 +390,8 @@
     "description": "This is the thirty-ninth product description.",
     "price": 110,
     "rating": 4.6,
-    "color": "blue"
+    "color": "blue",
+    "category": "bags"
   },
   {
     "id": 40,
@@ -362,6 +400,7 @@
     "description": "This is the fortieth product description.",
     "price": 70,
     "rating": 3.9,
-    "color": "blue"
+    "color": "blue",
+    "category": "shoes"
   }
 ]

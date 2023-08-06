@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 function Filter(props) {
-  const [minPrice, setMinPrice] = useState(0);
-  const [maxPrice, setMaxPrice] = useState(0);
+  const [minPrice, setMinPrice] = useState();
+  const [maxPrice, setMaxPrice] = useState();
   const [color, setColor] = useState("");
 
   function buttonClick() {
