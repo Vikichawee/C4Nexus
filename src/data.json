@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "product1.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 1",
     "description": "This is the first product description.",
     "price": 100,
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "image": "product2.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 2",
     "description": "This is the second product description.",
     "price": 75,
@@ -22,7 +22,7 @@
   },
   {
     "id": 3,
-    "image": "product3.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 3",
     "description": "This is the third product description.",
     "price": 120,
@@ -32,7 +32,7 @@
   },
   {
     "id": 4,
-    "image": "product4.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 4",
     "description": "This is the fourth product description.",
     "price": 50,
@@ -42,7 +42,7 @@
   },
   {
     "id": 5,
-    "image": "product5.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 5",
     "description": "This is the fifth product description.",
     "price": 90,
@@ -52,7 +52,7 @@
   },
   {
     "id": 6,
-    "image": "product6.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 6",
     "description": "This is the sixth product description.",
     "price": 65,
@@ -62,7 +62,7 @@
   },
   {
     "id": 7,
-    "image": "product7.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 7",
     "description": "This is the seventh product description.",
     "price": 150,
@@ -72,7 +72,7 @@
   },
   {
     "id": 8,
-    "image": "product8.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 8",
     "description": "This is the eighth product description.",
     "price": 80,
@@ -82,7 +82,7 @@
   },
   {
     "id": 9,
-    "image": "product9.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 9",
     "description": "This is the ninth product description.",
     "price": 110,
@@ -92,7 +92,7 @@
   },
   {
     "id": 10,
-    "image": "product10.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 10",
     "description": "This is the tenth product description.",
     "price": 70,
@@ -102,7 +102,7 @@
   },
   {
     "id": 11,
-    "image": "product1.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 11",
     "description": "This is the eleventh product description.",
     "price": 100,
@@ -113,7 +113,7 @@
   },
   {
     "id": 12,
-    "image": "product2.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 12",
     "description": "This is the twelfth product description.",
     "price": 75,
@@ -123,7 +123,7 @@
   },
   {
     "id": 13,
-    "image": "product3.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 13",
     "description": "This is the thirteenth product description.",
     "price": 120,
@@ -133,7 +133,7 @@
   },
   {
     "id": 14,
-    "image": "product4.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 14",
     "description": "This is the fourteenth product description.",
     "price": 50,
@@ -143,7 +143,7 @@
   },
   {
     "id": 15,
-    "image": "product5.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 15",
     "description": "This is the fifteenth product description.",
     "price": 90,
@@ -153,7 +153,7 @@
   },
   {
     "id": 16,
-    "image": "product6.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 16",
     "description": "This is the sixteenth product description.",
     "price": 65,
@@ -163,7 +163,7 @@
   },
   {
     "id": 17,
-    "image": "product7.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 17",
     "description": "This is the seventeenth product description.",
     "price": 150,
@@ -173,7 +173,7 @@
   },
   {
     "id": 18,
-    "image": "product8.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 18",
     "description": "This is the eighteenth product description.",
     "price": 80,
@@ -183,7 +183,7 @@
   },
   {
     "id": 19,
-    "image": "product9.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 19",
     "description": "This is the nineteenth product description.",
     "price": 110,
@@ -193,7 +193,7 @@
   },
   {
     "id": 20,
-    "image": "product10.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 20",
     "description": "This is the twentieth product description.",
     "price": 70,
@@ -203,7 +203,7 @@
   },
   {
     "id": 21,
-    "image": "product1.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 21",
     "description": "This is the twenty-first product description.",
     "price": 100,
@@ -214,7 +214,7 @@
   },
   {
     "id": 22,
-    "image": "product2.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 22",
     "description": "This is the twenty-second product description.",
     "price": 75,
@@ -224,7 +224,7 @@
   },
   {
     "id": 23,
-    "image": "product3.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 23",
     "description": "This is the twenty-third product description.",
     "price": 120,
@@ -234,7 +234,7 @@
   },
   {
     "id": 24,
-    "image": "product4.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 24",
     "description": "This is the twenty-fourth product description.",
     "price": 50,
@@ -244,7 +244,7 @@
   },
   {
     "id": 25,
-    "image": "product5.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 25",
     "description": "This is the twenty-fifth product description.",
     "price": 90,
@@ -254,7 +254,7 @@
   },
   {
     "id": 26,
-    "image": "product6.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 26",
     "description": "This is the twenty-sixth product description.",
     "price": 65,
@@ -264,7 +264,7 @@
   },
   {
     "id": 27,
-    "image": "product7.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 27",
     "description": "This is the twenty-seventh product description.",
     "price": 150,
@@ -274,7 +274,7 @@
   },
   {
     "id": 28,
-    "image": "product8.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 28",
     "description": "This is the twenty-eighth product description.",
     "price": 80,
@@ -284,7 +284,7 @@
   },
   {
     "id": 29,
-    "image": "product9.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 29",
     "description": "This is the twenty-ninth product description.",
     "price": 110,
@@ -294,7 +294,7 @@
   },
   {
     "id": 30,
-    "image": "product10.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 30",
     "description": "This is the thirtieth product description.",
     "price": 70,
@@ -304,7 +304,7 @@
   },
   {
     "id": 31,
-    "image": "product1.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 31",
     "description": "This is the thirty-first product description.",
     "price": 100,
@@ -315,7 +315,7 @@
   },
   {
     "id": 32,
-    "image": "product2.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 32",
     "description": "This is the thirty-second product description.",
     "price": 75,
@@ -325,7 +325,7 @@
   },
   {
     "id": 33,
-    "image": "product3.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 33",
     "description": "This is the thirty-third product description.",
     "price": 120,
@@ -335,7 +335,7 @@
   },
   {
     "id": 34,
-    "image": "product4.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 34",
     "description": "This is the thirty-fourth product description.",
     "price": 50,
@@ -345,7 +345,7 @@
   },
   {
     "id": 35,
-    "image": "product5.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 35",
     "description": "This is the thirty-fifth product description.",
     "price": 90,
@@ -355,7 +355,7 @@
   },
   {
     "id": 36,
-    "image": "product6.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 36",
     "description": "This is the thirty-sixth product description.",
     "price": 65,
@@ -365,7 +365,7 @@
   },
   {
     "id": 37,
-    "image": "product7.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 37",
     "description": "This is the thirty-seventh product description.",
     "price": 150,
@@ -375,7 +375,7 @@
   },
   {
     "id": 38,
-    "image": "product8.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/64fce105-fa06-4869-9f5c-0e55b155749f/sb-mens-el-jeano-pants-qftT3B.png",
     "name": "Product 38",
     "description": "This is the thirty-eighth product description.",
     "price": 80,
@@ -385,7 +385,7 @@
   },
   {
     "id": 39,
-    "image": "product9.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ca0e08c8-2236-49bd-a014-1da426aa1565/gym-club-training-duffel-bag-3NF364.png",
     "name": "Product 39",
     "description": "This is the thirty-ninth product description.",
     "price": 110,
@@ -395,7 +395,7 @@
   },
   {
     "id": 40,
-    "image": "product10.jpg",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cec4b036-00b4-4c40-a40f-f3459b640fc6/revolution-6-running-shoes-9FQ8QD.png",
     "name": "Product 40",
     "description": "This is the fortieth product description.",
     "price": 70,

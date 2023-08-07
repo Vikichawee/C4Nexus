@@ -10,7 +10,7 @@ function ProjectTile(props) {
 
   return (
     <div>
-      <h2>{items.image}</h2>
+      <img width="100px" src={items.image} alt={items.name} />
       <h2>{items.name}</h2>
       <h2>{items.description}</h2>
       <h2>{items.price}</h2>

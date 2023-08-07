@@ -6,14 +6,15 @@ import Header from "./Header";
 
 function Grid(props) {
   const [productTileMap, setProductTileMap] = useState([]);
-  const [forIndex, setForIndex] = useState(10);
+  const forIndex = 10;
   const [counter, setCounter] = useState(forIndex);
   const [filters, setFilters] = useState({
     minPrice: 0,
     maxPrice: 0,
     color: "",
   });
-  const [selectedCategory, setSelectedCategory] = useState(""); // New state to track the selected category
+  const [sort, setSort] = useState();
+  const [selectedCategory, setSelectedCategory] = useState("");
 
   useEffect(() => {
     const initialTiles = [];
@@ -23,18 +24,29 @@ function Grid(props) {
     setProductTileMap(initialTiles);
   }, [forIndex]);
 
-  const buttonClick = () => {
-    const update = [];
-    const updatedForIndex = forIndex + 10;
+  const loadMore = () => {
+    const updatedForIndex = counter + 10;
 
-    for (let index = 0; index < updatedForIndex; index++) {
-      update.push(<ProductTile key={index} index={index} />);
+    let categoryData = data;
+    if (selectedCategory) {
+      categoryData = data.filter((item) => item.category === selectedCategory);
     }
 
-    setForIndex(updatedForIndex);
-    setCounter(updatedForIndex);
-    setProductTileMap(update);
-    console.log(data);
+    const update = [];
+    const newCounter = Math.min(updatedForIndex, categoryData.length);
+    for (let index = counter; index < newCounter; index++) {
+      update.push(
+        <ProductTile key={index} index={categoryData[index].id - 1} />
+      );
+    }
+
+    setProductTileMap([...productTileMap, ...update]);
+    setCounter(newCounter);
+    if (sort === "ASC") {
+      priceSortAsc();
+    } else if (sort === "DESC") {
+      priceSortDesc();
+    }
   };
 
   const reverseButtonClick = () => {
@@ -42,30 +54,44 @@ function Grid(props) {
     setProductTileMap(reversedArray);
   };
 
-  const priceSortDesc = () => {
-    const sortedTiles = [...productTileMap];
+  const priceSortAsc = () => {
+    let sortedTiles = [...productTileMap];
+
+    let categoryData = data;
+    if (selectedCategory) {
+      categoryData = data.filter((item) => item.category === selectedCategory);
+    }
+
     sortedTiles.sort((a, b) => {
-      const priceA = data[a.key].price;
-      const priceB = data[b.key].price;
+      const priceA = categoryData[a.key].price;
+      const priceB = categoryData[b.key].price;
       return priceA - priceB;
     });
+
     setProductTileMap(sortedTiles);
+    setSort("ASC");
   };
 
-  const priceSortAsc = () => {
-    const sortedTiles = [...productTileMap];
+  const priceSortDesc = () => {
+    let sortedTiles = [...productTileMap];
+
+    let categoryData = data;
+    if (selectedCategory) {
+      categoryData = data.filter((item) => item.category === selectedCategory);
+    }
+
     sortedTiles.sort((a, b) => {
-      const priceA = data[a.key].price;
-      const priceB = data[b.key].price;
+      const priceA = categoryData[a.key].price;
+      const priceB = categoryData[b.key].price;
       return priceB - priceA;
     });
+
     setProductTileMap(sortedTiles);
+    setSort("DESC");
   };
 
   const applyFilters = (selectedFilters) => {
-    // Set the selected filters to the state
     setFilters(selectedFilters);
-    // Apply filters to create a new grid
     let filteredTiles = data;
 
     if (selectedCategory) {
@@ -90,12 +116,19 @@ function Grid(props) {
   };
 
   const showOnlyCategory = (category) => {
-    setSelectedCategory(category); // Update the selected category state
-    const categoryTiles = data.filter((item) => item.category === category);
-    const updatedTiles = categoryTiles.map((item, index) => (
-      <ProductTile key={index} index={item.id - 1} />
-    ));
+    setSelectedCategory(category);
+
+    const categoryData = data.filter((item) => item.category === category);
+
+    const newCounter = Math.min(forIndex, categoryData.length);
+
+    const updatedTiles = categoryData
+      .slice(0, newCounter)
+      .map((item, index) => <ProductTile key={index} index={item.id - 1} />);
+
     setProductTileMap(updatedTiles);
+
+    setCounter(newCounter);
   };
 
   return (
@@ -107,7 +140,7 @@ function Grid(props) {
       />
       <Filter onApplyFilter={applyFilters} />
       {productTileMap}
-      <button onClick={buttonClick}>asd</button>
+      <button onClick={loadMore}>Load More</button>
       <button onClick={reverseButtonClick}>reverse</button>
       <button onClick={priceSortDesc}>PriceDesc</button>
       <button onClick={priceSortAsc}>PriceAsc</button>
