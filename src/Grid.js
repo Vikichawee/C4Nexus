@@ -3,10 +3,16 @@ import ProductTile from "./ProductTile";
 import data from "./data.json";
 import Filter from "./Filter";
 import Header from "./Header";
+import Button from "@mui/material/Button";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+
+import "./Grid.css";
 
 function Grid(props) {
+  // State variables
   const [productTileMap, setProductTileMap] = useState([]);
-  const forIndex = 10;
+  const forIndex = 12;
   const [counter, setCounter] = useState(forIndex);
   const [filters, setFilters] = useState({
     minPrice: 0,
@@ -15,7 +21,9 @@ function Grid(props) {
   });
   const [sort, setSort] = useState();
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [anchorEl, setAnchorEl] = useState(null);
 
+  // Load initial product tiles
   useEffect(() => {
     const initialTiles = [];
     for (let index = 0; index < forIndex; index++) {
@@ -24,8 +32,9 @@ function Grid(props) {
     setProductTileMap(initialTiles);
   }, [forIndex]);
 
+  // Load more products
   const loadMore = () => {
-    const updatedForIndex = counter + 10;
+    const updatedForIndex = counter + 12;
 
     let categoryData = data;
     if (selectedCategory) {
@@ -48,12 +57,12 @@ function Grid(props) {
       priceSortDesc();
     }
   };
-
+  // Handle reverse button click
   const reverseButtonClick = () => {
     const reversedArray = [...productTileMap].reverse();
     setProductTileMap(reversedArray);
   };
-
+  // Handle ascending price sort
   const priceSortAsc = () => {
     let sortedTiles = [...productTileMap];
 
@@ -71,7 +80,7 @@ function Grid(props) {
     setProductTileMap(sortedTiles);
     setSort("ASC");
   };
-
+  // Handle descending price sort
   const priceSortDesc = () => {
     let sortedTiles = [...productTileMap];
 
@@ -89,7 +98,7 @@ function Grid(props) {
     setProductTileMap(sortedTiles);
     setSort("DESC");
   };
-
+  // Apply filters to product list
   const applyFilters = (selectedFilters) => {
     setFilters(selectedFilters);
     let filteredTiles = data;
@@ -114,7 +123,7 @@ function Grid(props) {
 
     setProductTileMap(updatedTiles);
   };
-
+  // Show products of a specific category
   const showOnlyCategory = (category) => {
     setSelectedCategory(category);
 
@@ -130,6 +139,14 @@ function Grid(props) {
 
     setCounter(newCounter);
   };
+  // Handle opening the sort menu
+  const handleSortClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  // Handle closing the sort menu
+  const handleSortClose = () => {
+    setAnchorEl(null);
+  };
 
   return (
     <div className="grid-container">
@@ -139,13 +156,38 @@ function Grid(props) {
         jeans={() => showOnlyCategory("jeans")}
       />
       <Filter onApplyFilter={applyFilters} />
-      {productTileMap}
-      <button onClick={loadMore}>Load More</button>
-      <button onClick={reverseButtonClick}>reverse</button>
-      <button onClick={priceSortDesc}>PriceDesc</button>
-      <button onClick={priceSortAsc}>PriceAsc</button>
+      <div className="product-grid">{productTileMap}</div>
 
-      <div>{counter}</div>
+      <div className="sort">
+        <Button
+          style={{ backgroundColor: "#6a7b76" }}
+          variant="contained"
+          className="sortHover"
+          onClick={handleSortClick}
+        >
+          Sort
+        </Button>
+        <Menu
+          anchorEl={anchorEl}
+          open={Boolean(anchorEl)}
+          onClose={handleSortClose}
+        >
+          <MenuItem onClick={reverseButtonClick}>Reverse</MenuItem>
+          <MenuItem onClick={priceSortDesc}>Price Desc</MenuItem>
+          <MenuItem onClick={priceSortAsc}>Price Asc</MenuItem>
+        </Menu>
+      </div>
+      <div className="loadAndCounter">
+        <Button
+          style={{ backgroundColor: "#6a7b76" }}
+          variant="contained"
+          onClick={loadMore}
+          className="button"
+        >
+          More
+        </Button>
+        <div className="counter">Total items: {counter}</div>
+      </div>
     </div>
   );
 }
