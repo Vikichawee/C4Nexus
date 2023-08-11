@@ -1,7 +1,6 @@
 body {
-  background-color: #8b9d83;
+  background-color: #160254;
 }
-
 input {
   background-color: #beb0a7;
   border: 0px;
@@ -37,7 +36,6 @@ input {
   width: 200px;
   border: 1px solid #ddd;
   padding: 15px;
-  background-color: #6a7b76;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
@@ -56,6 +54,12 @@ input {
 .tile .price {
   font-weight: bold;
   color: #e91e63;
+}
+.counter {
+  background-color: #6a7b76;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10%;
 }
 
 .product-grid {
@@ -88,20 +92,6 @@ input {
   position: relative;
 }
 
-.sort-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  background-color: #6a7b76;
-  margin-left: 5vw;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-  padding: 5px;
-  width: max-content;
-  z-index: 1;
-}
-
 .sort:hover .sort-menu {
   display: block;
 }
@@ -117,10 +107,15 @@ input {
     grid-template-rows: 0.05fr 0.03fr 0.1fr 0.01fr;
   }
 
+  .tile {
+    width: 100%; /* Make the tiles full width on small screens */
+    height: auto; /* Allow height to adjust automatically */
+  }
+
   .filter {
     display: grid;
     margin: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr; /* Single column layout for filter */
     grid-template-rows: 1fr 1fr 1fr;
     grid-column: 2;
     grid-row: 2 / span 1;
@@ -129,9 +124,9 @@ input {
   .product-grid {
     grid-row: 3;
     padding-top: 10px;
-    width: 40%;
+    width: 100%; /* Make the product grid full width on small screens */
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto; /* Allow rows to adjust automatically */
   }
 
   .loadAndCounter {
@@ -175,8 +170,8 @@ input {
   .sort {
     grid-column: 1;
     grid-row: 2;
-    margin-top: 30vh;
-    margin-right: 150px;
+    margin-top: 40vh;
+    margin-right: 82px;
   }
 
   .sort-menu {

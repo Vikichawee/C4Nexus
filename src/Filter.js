@@ -15,24 +15,34 @@ function Filter(props) {
   function buttonClick() {
     props.onApplyFilter({ minPrice, maxPrice, color });
   }
+  const style = {
+    color: "#ffffff",
+    backgroundColor: "rgba(165, 222, 242, 0.2)", // Updated background color with opacity
+    border: "none", // Remove border
+    padding: "8px",
+    marginBottom: "5px", // Add some spacing
+  };
 
   return (
     // Filter form with input fields and apply button
 
-    <div className="filter">
+    <div style={{ margin: "10px" }} className="filter">
       <FilledInput
+        style={style}
         type="text"
         placeholder="Color"
         value={color}
         onChange={(e) => setColor(e.target.value)}
       />
       <FilledInput
+        style={style}
         type="number"
         placeholder="Min Price"
         value={minPrice}
         onChange={(e) => setMinPrice(Number(e.target.value))}
       />
       <FilledInput
+        style={style}
         type="number"
         placeholder="Max Price"
         value={maxPrice}
