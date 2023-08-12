@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+Technologies Used:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React: The front-end of the application was built using React, a popular JavaScript library for building user interfaces.
+Material-UI: Material-UI components were integrated to enhance the visual design and interactivity of the application.
+Custom CSS: Custom CSS styles were employed to tailor the appearance and layout of components according to the requirements.
+Implemented Changes:
 
-## Available Scripts
+Filter Component: A Filter component was introduced to enable users to apply filters based on color, minimum price, and maximum price. This component was built using Material-UI's FilledInput and Button components.
 
-In the project directory, you can run:
+ProductTile Component: The ProductTile component was enhanced to display product details using Material-UI's Card components. Images, product names, descriptions, and prices were formatted using Typography components.
 
-### `npm start`
+Sorting Menu: A sorting functionality was added to allow users to sort the displayed products by ascending or descending price. This was achieved by incorporating a Material-UI Menu with sorting options.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: The entire application was made responsive by using media queries to adapt the layout and styling based on different screen sizes. Three breakpoints were defined for small, medium, and large screens.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Challenges Faced:
 
-### `npm test`
+Responsive Design: Adapting the application's layout and styles for different screen sizes was challenging, particularly ensuring that components are appropriately positioned and spaced while maintaining a consistent appearance across devices.
+Menu Integration: Integrating the sorting menu using Material-UI's Menu component required careful handling of state management and anchor positioning to ensure smooth functionality.
+CSS Styling: Coordinating custom CSS with Material-UI's components to achieve a cohesive and visually appealing design was a challenge, especially in situations where the default styles conflicted with the desired design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In conclusion, the task involved leveraging React and Material-UI to improve the user experience and aesthetics of the web application. Key enhancements included the Filter component, refined ProductTile design, sorting functionality, and responsive design. While challenges related to responsive layout, menu integration, and CSS styling were encountered, they were successfully addressed to deliver a polished and functional user interface.
