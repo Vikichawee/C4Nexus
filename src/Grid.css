@@ -1,5 +1,10 @@
 body {
   background-color: #160254;
+  min-height: 400px;
+  clear: both;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
 }
 input {
   background-color: #beb0a7;
